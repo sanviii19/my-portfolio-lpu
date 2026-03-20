@@ -378,8 +378,8 @@ function App() {
           {/* Technical Skills */}
           <section id="tools" className="reveal py-20 px-6 lg:px-12">
             <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-12 text-center lg:text-left">
-              TECHNICAL<br />
-              <span className="text-gray-700">ARSENAL</span>
+              SKILLS &<br />
+              <span className="text-gray-700">TECHNOLOGIES</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl">
               <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-gray-700 transition cursor-pointer">
