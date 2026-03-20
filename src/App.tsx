@@ -20,17 +20,32 @@ function App() {
   const [statusMessage, setStatusMessage] = useState('');
   const [isStatusVisible, setIsStatusVisible] = useState(false);
 
-  const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleResumeClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const resumeUrl = '/resume.pdf';
 
-    // Trigger file download
-    const downloadLink = document.createElement('a');
-    downloadLink.href = resumeUrl;
-    downloadLink.download = 'Sanvi-Kumari-Resume.pdf';
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
+    try {
+      // Download via blob so browser does not fallback to server-provided filename.
+      const response = await fetch(resumeUrl);
+      const fileBlob = await response.blob();
+      const objectUrl = URL.createObjectURL(fileBlob);
+
+      const downloadLink = document.createElement('a');
+      downloadLink.href = objectUrl;
+      downloadLink.download = 'Sanvi-Kumari-Resume.pdf';
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+      URL.revokeObjectURL(objectUrl);
+    } catch (error) {
+      // Fallback to direct download if blob fetch fails.
+      const downloadLink = document.createElement('a');
+      downloadLink.href = resumeUrl;
+      downloadLink.download = 'Sanvi-Kumari-Resume.pdf';
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+    }
 
     // Open CV in a new tab
     window.open(resumeUrl, '_blank', 'noopener,noreferrer');
