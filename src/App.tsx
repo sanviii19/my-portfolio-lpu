@@ -20,34 +20,17 @@ function App() {
   const [statusMessage, setStatusMessage] = useState('');
   const [isStatusVisible, setIsStatusVisible] = useState(false);
 
-  const handleResumeClick = async (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleResumeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    const resumeUrl = '/resume.pdf';
+    const resumeUrl = '/Sanvi-Kumari-Resume.pdf';
 
-    try {
-      // Download via blob so browser does not fallback to server-provided filename.
-      const response = await fetch(resumeUrl);
-      const fileBlob = await response.blob();
-      const objectUrl = URL.createObjectURL(fileBlob);
+    const downloadLink = document.createElement('a');
+    downloadLink.href = resumeUrl;
+    downloadLink.download = 'Sanvi-Kumari-Resume.pdf';
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+    document.body.removeChild(downloadLink);
 
-      const downloadLink = document.createElement('a');
-      downloadLink.href = objectUrl;
-      downloadLink.download = 'Sanvi-Kumari-Resume.pdf';
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
-      document.body.removeChild(downloadLink);
-      URL.revokeObjectURL(objectUrl);
-    } catch (error) {
-      // Fallback to direct download if blob fetch fails.
-      const downloadLink = document.createElement('a');
-      downloadLink.href = resumeUrl;
-      downloadLink.download = 'Sanvi-Kumari-Resume.pdf';
-      document.body.appendChild(downloadLink);
-      downloadLink.click();
-      document.body.removeChild(downloadLink);
-    }
-
-    // Open CV in a new tab
     window.open(resumeUrl, '_blank', 'noopener,noreferrer');
   };
 
@@ -266,10 +249,9 @@ function App() {
 
             {/* Resume Card */}
             <a
-              href="/resume.pdf"
+              href="/Sanvi-Kumari-Resume.pdf"
               onClick={handleResumeClick}
-              target="_blank"
-              rel="noopener noreferrer"
+              download="Sanvi-Kumari-Resume.pdf"
               className="group block w-full max-w-2xl relative"
             >
               {/* Static glow orbs */}
