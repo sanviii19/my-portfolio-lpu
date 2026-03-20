@@ -558,7 +558,7 @@ function App() {
                       <span className="px-3 py-1 rounded-full border border-stone-500/40 bg-stone-500/10 text-stone-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Node.js</span>
                       <span className="px-3 py-1 rounded-full border border-stone-500/40 bg-stone-500/10 text-stone-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Express.js</span>
                       <span className="px-3 py-1 rounded-full border border-stone-500/40 bg-stone-500/10 text-stone-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">MongoDB</span>
-                      <span className="px-3 py-1 rounded-full border border-stone-500/40 bg-stone-500/10 text-stone-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Razorpay API</span>
+                      <span className="px-3 py-1 rounded-full border border-stone-500/40 bg-stone-500/10 text-stone-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Cashfree API</span>
                     </div>
                   </div>
                 </div>
