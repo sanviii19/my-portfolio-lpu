@@ -540,7 +540,7 @@ function App() {
                           GitHub
                         </a>
                         <a
-                          href="https://rapidstore.vercel.app"
+                          href="https://sanvikumari-lpu.vercel.com/#projects"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-700 bg-black/30 text-gray-300 text-xs hover:text-stone-100 hover:border-stone-400/70 hover:bg-stone-500/10 transition-all duration-300"
@@ -582,7 +582,7 @@ function App() {
                           GitHub
                         </a>
                         <a
-                          href="https://discussionplatform-konvo.onrender.com"
+                          href="https://sanvikumari-lpu.vercel.com/#projects"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-700 bg-black/30 text-gray-300 text-xs hover:text-violet-200 hover:border-violet-400/70 hover:bg-violet-500/10 transition-all duration-300"
@@ -597,54 +597,11 @@ function App() {
                       It emphasizes clean UX and secure authentication to keep discussions organized and meaningful.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-3">
-                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">React</span>
-                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Node.js</span>
-                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Express.js</span>
-                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">MongoDB</span>
-                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">JWT</span>
-                    </div>
-                  </div>
-                </div>
-              </article>
-              <article className="scroll-reveal-child group block bg-gray-900/60 border border-gray-800 rounded-2xl p-5 hover:border-gray-600 hover:scale-[1.02] transition-all duration-300">
-                <div className="flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-5">
-                  <div className="w-full sm:w-28 h-40 sm:h-20 bg-gray-800 rounded-xl shrink-0 overflow-hidden">
-                    <img src={clinicCareImg} alt="ClinicCare" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="mb-2 flex items-start justify-between gap-2">
-                      <h3 className="text-lg font-bold">ClinicCare</h3>
-                      <div className="flex items-center gap-2 shrink-0">
-                        <a
-                          href="https://github.com/sanviii19/ClinicCare"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-700 bg-black/30 text-gray-300 text-xs hover:text-blue-200 hover:border-blue-400/70 hover:bg-blue-500/10 transition-all duration-300"
-                        >
-                          <Github className="w-3.5 h-3.5" />
-                          GitHub
-                        </a>
-                        <a
-                          href="https://cliniccare-management.vercel.app"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-700 bg-black/30 text-gray-300 text-xs hover:text-blue-200 hover:border-blue-400/70 hover:bg-blue-500/10 transition-all duration-300"
-                        >
-                          <ExternalLink className="w-3.5 h-3.5" />
-                          Live
-                        </a>
-                      </div>
-                    </div>
-                    <p className="text-gray-400 text-sm leading-relaxed">
-                      ClinicCare is a healthcare workflow platform that simplifies appointment booking, patient record handling, and clinic coordination.
-                      It helps reduce manual effort for both staff and patients through a structured, easy-to-use role-based interface.
-                    </p>
-                    <div className="flex flex-wrap gap-2 mt-3">
-                      <span className="px-3 py-1 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">React</span>
-                      <span className="px-3 py-1 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Node.js</span>
-                      <span className="px-3 py-1 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Express.js</span>
-                      <span className="px-3 py-1 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">MongoDB</span>
-                      <span className="px-3 py-1 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">REST APIs</span>
+                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">PHP</span>
+                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">MySQL</span>
+                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">HTML</span>
+                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">CSS</span>
+                      <span className="px-3 py-1 rounded-full border border-violet-500/40 bg-violet-500/10 text-violet-300 text-xs transition-transform duration-300 ease-out hover:scale-105 hover:shadow-[0_0_14px_rgba(255,255,255,0.22)]">Gemini API</span>
                     </div>
                   </div>
                 </div>
