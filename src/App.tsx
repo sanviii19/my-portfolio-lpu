@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Home, User, GraduationCap, Folder, Code2, Wrench, Award, Trophy, Users, RefreshCw } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Home, User, GraduationCap, Folder, Code2, Wrench, Award, Trophy, Users } from 'lucide-react';
 import profileImg from './assets/profileImg.jpeg';
 import linklyImg from './assets/projectImg/linkly.png';
 import rapidstoreImg from './assets/projectImg/RapidStore.png';
@@ -441,6 +441,15 @@ function App() {
                 </div>
               </div>
               <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-gray-700 transition cursor-pointer">
+                <div className="w-11 h-11 bg-sky-500/15 rounded-xl flex items-center justify-center shrink-0">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" className="w-7 h-7" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold">MySQL</h3>
+                  <p className="text-gray-500 text-xs">Database</p>
+                </div>
+              </div>
+              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-gray-700 transition cursor-pointer">
                 <div className="w-11 h-11 bg-orange-500/15 rounded-xl flex items-center justify-center shrink-0">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" className="w-7 h-7" />
                 </div>
@@ -455,15 +464,6 @@ function App() {
                 </div>
                 <div>
                   <h3 className="text-base font-bold">Teamwork</h3>
-                  <p className="text-gray-500 text-xs">Soft Skills</p>
-                </div>
-              </div>
-              <div className="scroll-reveal-child flex items-center gap-4 bg-gray-900/60 border border-gray-800 rounded-2xl px-5 py-4 hover:border-gray-700 transition cursor-pointer">
-                <div className="w-11 h-11 bg-emerald-500/15 rounded-xl flex items-center justify-center shrink-0">
-                  <RefreshCw className="w-6 h-6 text-emerald-300" />
-                </div>
-                <div>
-                  <h3 className="text-base font-bold">Adaptability</h3>
                   <p className="text-gray-500 text-xs">Soft Skills</p>
                 </div>
               </div>
