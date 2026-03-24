@@ -4,8 +4,6 @@ import profileImg from './assets/profileImg.jpeg';
 import linklyImg from './assets/projectImg/linkly.png';
 import rapidstoreImg from './assets/projectImg/RapidStore.png';
 import konvoImg from './assets/projectImg/konvo.png';
-import clinicCareImg from './assets/projectImg/ClinicCare.png';
-
 import './App.css';
 
 function App() {
